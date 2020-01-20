@@ -6,7 +6,7 @@
 #    By: ehaggon <ehaggon@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/20 16:23:35 by ehaggon           #+#    #+#              #
-#    Updated: 2020/01/20 17:08:16 by ehaggon          ###   ########.fr        #
+#    Updated: 2020/01/20 17:31:37 by ehaggon          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,7 +40,8 @@ DEPS = $(patsubst %,$(HEADER)/%,$(_DEPS))
 
 SOURCES =  main.c \
 			utils.c \
-			validate.c
+			validate.c \
+			drawing_module.c \
 
 SRCS = $(addprefix $(DIR_S)/,$(SOURCES))
 

@@ -6,7 +6,7 @@
 /*   By: ehaggon <ehaggon@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 16:18:29 by ehaggon           #+#    #+#             */
-/*   Updated: 2020/01/20 17:07:04 by ehaggon          ###   ########.fr       */
+/*   Updated: 2020/01/20 17:31:21 by ehaggon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,4 @@
 
 void usage_print();
 int validate(char *argum);
+void drawing_main(char *argum);
