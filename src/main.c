@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ehaggon <ehaggon@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mplutarc <mplutarc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/20 16:18:23 by ehaggon           #+#    #+#             */
-/*   Updated: 2020/01/20 17:15:55 by ehaggon          ###   ########.fr       */
+/*   Updated: 2020/02/05 19:22:30 by mplutarc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int main(int argv, char **argc)
         if (validate(argc[1]))
         {
             printf("%s\n","basic needs");
-            drawing_main(argc[1]);
+            draw();
         }
         else
             usage_print();
